@@ -2,7 +2,7 @@
   "name": "covid-19",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SourabhCodeTech.github.io/covid19.github.io",
+  "homepage": "https://SourabhCodeTech.github.io/Corona",
   "proxy": "https://api.covid19india.org/data.json",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
