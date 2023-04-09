@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Corona/static/css/main.fea82aad.css",
-    "main.js": "/Corona/static/js/main.23bb3ff5.js",
+    "main.js": "/Corona/static/js/main.9cfe7798.js",
     "static/media/wash.gif": "/Corona/static/media/wash.9d6cfe6224369fb9748b.gif",
     "static/media/stay-home.gif": "/Corona/static/media/stay-home.438d1dd8ca80b9d3bf22.gif",
     "static/media/doctor.gif": "/Corona/static/media/doctor.9dcfe73349182a82d34e.gif",
@@ -20,10 +20,10 @@
     "static/media/crowd.jpeg": "/Corona/static/media/crowd.95ed4a8029ee8a735b87.jpeg",
     "index.html": "/Corona/index.html",
     "main.fea82aad.css.map": "/Corona/static/css/main.fea82aad.css.map",
-    "main.23bb3ff5.js.map": "/Corona/static/js/main.23bb3ff5.js.map"
+    "main.9cfe7798.js.map": "/Corona/static/js/main.9cfe7798.js.map"
   },
   "entrypoints": [
     "static/css/main.fea82aad.css",
-    "static/js/main.23bb3ff5.js"
+    "static/js/main.9cfe7798.js"
   ]
 }
