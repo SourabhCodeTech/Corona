@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Corona/static/css/main.fea82aad.css",
+    "main.js": "/Corona/static/js/main.23bb3ff5.js",
+    "static/media/wash.gif": "/Corona/static/media/wash.9d6cfe6224369fb9748b.gif",
+    "static/media/stay-home.gif": "/Corona/static/media/stay-home.438d1dd8ca80b9d3bf22.gif",
+    "static/media/doctor.gif": "/Corona/static/media/doctor.9dcfe73349182a82d34e.gif",
+    "static/media/cov.png": "/Corona/static/media/cov.d5a45e8275da3c7111d0.png",
+    "static/media/corona.jpg": "/Corona/static/media/corona.52d5858a78ea9b722818.jpg",
+    "static/media/four.jpeg": "/Corona/static/media/four.977d0ed02c7deb662296.jpeg",
+    "static/media/insta.png": "/Corona/static/media/insta.d69ac3effeb6cc6b65c7.png",
+    "static/media/clean.gif": "/Corona/static/media/clean.274e5cde5605adb0be1e.gif",
+    "static/media/mask.gif": "/Corona/static/media/mask.a2b3990302b74fb130c5.gif",
+    "static/media/distance.gif": "/Corona/static/media/distance.43ad2c423294a5b19a57.gif",
+    "static/media/home-image.gif": "/Corona/static/media/home-image.8637197b87d884350606.gif",
+    "static/media/one.jpeg": "/Corona/static/media/one.6a2fce9bb2c75fd20b9d.jpeg",
+    "static/media/three.jpeg": "/Corona/static/media/three.5cef63b37ecd74f37b4c.jpeg",
+    "static/media/two.jpeg": "/Corona/static/media/two.db98c3ed1331950d3f63.jpeg",
+    "static/media/touch.jpeg": "/Corona/static/media/touch.454cad36dd35b0c60af7.jpeg",
+    "static/media/crowd.jpeg": "/Corona/static/media/crowd.95ed4a8029ee8a735b87.jpeg",
+    "index.html": "/Corona/index.html",
+    "main.fea82aad.css.map": "/Corona/static/css/main.fea82aad.css.map",
+    "main.23bb3ff5.js.map": "/Corona/static/js/main.23bb3ff5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fea82aad.css",
+    "static/js/main.23bb3ff5.js"
+  ]
+}
