@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* style of footer box.. */
+
+#foo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    padding: 20px !important;
+    margin: 0px;
+    font-family: Roboto;
+    font-weight: 900;
+
+    height: fit-content;
+
+}
+
+ul li a img {
+    height: 40px;
+    width: 40px;
+    box-shadow: 1px 1px 15px white;
+    border-radius: 20px
+}
+
+
+.foo-txt {
+    color: white;
+    font-size: 0.9rem !important;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0px !important;
+}
+
+.footer-img img:hover{
+    animation: scale 1.3s alternate infinite; 
+}
+
+/* footer social media list - style.. */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+@keyframes scale {
+    0%{
+    transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+

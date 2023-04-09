@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #1c0303 !important;
+    padding: 0 !important;
+}
+
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#covid_logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#blue{
+    color: blue;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.covid-logo-hover span:hover{
+    color: white;
+    text-shadow: -1px 1px 8px #ce3333;
+}

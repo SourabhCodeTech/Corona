@@ -1,0 +1,42 @@
+@media only screen and (max-width:360px) {
+    .img-pre {
+        /* display: none !important; */
+        height: 0%;
+        width: 0%;
+    }
+    #foo {
+        width: 360px;
+    }
+    #pandemic {
+        width: 360px;
+    }
+    #about {
+        width: 360px;
+    }
+    hr{
+        display: none;
+    }
+    .v-pan{
+        text-align: unset !important;
+    }
+    #covid{
+        width: 360px;
+    }
+    h2{
+        margin-top: 30px;
+    }
+
+    #vaccine{
+        width: 360px;
+    }
+    #two{
+        display: none;
+    }
+ #four{
+     display: none;
+ }
+
+ #chrome{
+     width: 360px;
+ }
+}

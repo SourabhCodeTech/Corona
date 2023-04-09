@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Browser Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+    background: none;
+}
+
+/* Browser Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(255 255 255 / 70%);
+}
+
+#about {
+    background-image: repeating-linear-gradient( 150deg, rgb(63, 54, 54), transparent 100px);
+    padding: 40px;
+}
+
+h1 {
+    padding: 5px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.box_cov {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color: white;
+}
+
+.child {
+    text-align: center;
+    padding: 10px;
+}
+
+.small {
+    width: fit-content;
+}
+
+.cap {
+    width: 600px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+  
+  
+}
+
+p {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+span {
+    color: yellow;
+}
+
+.btn {
+    padding: 10px;
+    background-image: radial-gradient(black, white);
+}
+
+.btn a {
+    text-decoration: none !important;
+    color: white;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: rgb(83, 63, 63);
+    width: 9%;
+    border-width: 10px;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+/* symptoms styling */
+#symptoms {
+    height: fit-content;
+    width: fit-content !important;
+}
+
+.sym-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    padding: 30px;
+}
+
+/* precaution start styling */
+#protect {
+    background-image: repeating-linear-gradient( 45deg, black, transparent 100px);
+    width: fit-content !important;
+    height: fit-content;
+    box-shadow: 16px 20px 33px black;
+}
+
+.box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-pre {
+    height: 250px;
+    width: 250px;
+}
+
+.large-pre {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+}
+
+.p-pre {
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%)
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* vaccination styling */
+.img-vacc {
+    border-radius: 20px;
+}
+
+.vaccine-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 100px;
+    flex-wrap: wrap;
+}
+
+.steps-vacc {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.eff {
+    color: #ead7d7;
+}
+
+#vaccine{
+    background-image: repeating-linear-gradient( 150deg,#25051b,  transparent 100px);
+    padding-bottom: 50px;
+}
+
+img {
+    height: 220px;
+    width: 220px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.v-span {
+    color: yellow;
+    font-size: 1.2rem;
+}
+
+/* pandemic  */
+
+#pandemic {
+    height: fit-content;
+}
+
+.v-pan {
+    text-align: justify;
+}
+
+@media (min-width: 0px) and (max-width: 512px) {
+    .f-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .s-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+/* hover effects */
+#rot-img:hover{
+    animation: rotate 3s alternate;
+}
+
+.sympt:hover{
+    animation: scale 2s alternate;
+}
+
+#crowd:hover{
+    animation: scale 1.3s alternate infinite;
+}
+
+#touch:hover{
+    animation: scale 1.3s alternate infinite;
+}
+
+#cover:hover{
+    animation: scale 1.3s alternate infinite; 
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+    0%{
+    transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
