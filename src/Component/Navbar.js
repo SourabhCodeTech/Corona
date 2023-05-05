@@ -31,15 +31,27 @@ function Navbar() {
             <li className="nav-item" style={{padding: '0px 10px'}}>
               <a className="nav-link" href="/about#pandemic">Pandamic</a>
             </li>
-            <li className="nav-item" style={{padding: '0px 10px'}}>
-              <a className="nav-link" href="/covid">Covid-19 Tracker</a>
-            </li>
+            
             <li className="nav-item" style={{padding: '0px 10px'}}>
               <a className="nav-link" href="/covidGraph">Covid Graph</a>
             </li>
-            <li className="nav-item" style={{padding: '0px 10px'}}>
+            <div class="btn-group">
+              <button class="btn btn-pimary btn-sm dropdown-toggle" style={{backgroundColor: '#007bff'}} type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Covid Tackers
+              </button>
+  <div class="dropdown-menu" style={{backgroundColor: '#dc3545'}}>
+    <li className="nav-item">
+              <a className="nav-link" href="/covid">Covid-19 Tracker</a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="/covidTrackerCountryWise">Country Wise Tracker</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/worldMapTracker">WorldTracker</a>
+            </li>
+  </div>
+</div>
+            
           </ul>
 
         </div>

@@ -33,7 +33,7 @@ export default class CountriesDetails extends Component {
         const value = e.target.value
         let sortByReverse = true ;
 
-        if(value == "Highest") {
+        if(value === "Highest") {
             sortByReverse = true
         } else {
             sortByReverse= false
@@ -53,14 +53,11 @@ export default class CountriesDetails extends Component {
         var FindSpecificCountry = [];
 
         if(value) {
-
-            countryDetails.map(function(cur, index) {
+            countryDetails.forEach((cur, index) => {
                 const finder = cur.Country.toLowerCase().search(value.toLowerCase())
                 if(finder !== -1) {
                     FindSpecificCountry.push(countryDetails[index]);
                 }
-
-               
             })
 
             FindSpecificCountry = ArraySort(FindSpecificCountry, 'TotalConfirmed', {reverse: true})

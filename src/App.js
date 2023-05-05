@@ -8,6 +8,7 @@ import Footer from './Component/Footer';
 import Covid from './Component/Covid';
 import CovidGraph from './Component/CovidGraph';
 import CovidTrakerCountryWise from './Component/CovidTrakerCountryWise'
+import WorldTracker from './Component/WorldMapTracker/components/Covid19'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/covid" component={Covid} />
         <Route exact path="/covidGraph" component={CovidGraph} />
         <Route exact path="/covidTrackerCountryWise" component={CovidTrakerCountryWise} />
+        <Route exact path="/worldMapTracker" component={WorldTracker} />
       </Switch>
     </Router>
     <Footer />
