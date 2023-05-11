@@ -12,7 +12,7 @@ import WorldTracker from './Component/WorldMapTracker/components/Covid19'
 function App() {
   return (
     <>
-    <div style={{paddingBottom: '50px'}}>
+    <div style={{paddingBottom: '79px'}}>
     <Navbar />
     </div>
     <Router>
