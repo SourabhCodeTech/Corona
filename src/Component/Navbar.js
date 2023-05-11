@@ -30,6 +30,9 @@ function Navbar() {
             <li className="nav-item" style={{ padding: '0px 10px' }}>
               <a className="nav-link" href="/about#pandemic">Pandamic</a>
             </li>
+            <li className="nav-item" style={{ padding: '0px 10px' }}>
+                  <a className="nav-link" href="/worldMapTracker">WorldTracker</a>
+                </li>
 
             <li className="nav-item" style={{ padding: '0px 10px' }}>
               <a className="nav-link" href="/covidGraph">Covid Graph</a>
@@ -45,9 +48,7 @@ function Navbar() {
                 <li className="nav-item">
                   <a className="nav-link" href="/covidTrackerCountryWise">Country Wise Tracker</a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/worldMapTracker">WorldTracker</a>
-                </li>
+               
               </div>
             </div>
 
