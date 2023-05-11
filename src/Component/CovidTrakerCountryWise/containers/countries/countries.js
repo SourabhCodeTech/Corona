@@ -92,6 +92,8 @@ export default class CountriesDetails extends Component {
                         key={index}
                         countryCode={cur.CountryCode}
 
+                        Country={cur.Country}
+
                         totalCase={ChangeNumbertoFormats(cur.TotalConfirmed)}
                         newCase={ChangeNumbertoFormats(cur.NewConfirmed)}
 

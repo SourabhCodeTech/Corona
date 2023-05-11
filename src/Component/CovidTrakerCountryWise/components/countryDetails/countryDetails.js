@@ -20,6 +20,7 @@ export default function countryDetails(props) {
                 }}
                 title={props.countryCode}
             />
+            <p style={{margin: '0px'}}><small>{props.Country}</small></p>
 
             </div>
 

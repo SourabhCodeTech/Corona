@@ -20,7 +20,7 @@ const Covid19 = () => {
   useEffect(load, []);
 
   return (
-    <div style={{marginTop: '64px'}}>
+    <div>
       {countries.length === 0 ? (
         <Loading />
       ) : (

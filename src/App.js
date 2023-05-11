@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
 import './Component/Mediaquery.css'
 import Navbar from './Component/Navbar';
 import Home from './Component/Home'
@@ -13,7 +12,9 @@ import WorldTracker from './Component/WorldMapTracker/components/Covid19'
 function App() {
   return (
     <>
+    <div style={{paddingBottom: '70px'}}>
     <Navbar />
+    </div>
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
