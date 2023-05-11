@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Component/Navbar.css'
-// import covidlogo from './image/covid-logo.png'
 
 function Navbar() {
   return (
@@ -60,4 +59,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
