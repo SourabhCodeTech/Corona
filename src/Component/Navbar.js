@@ -41,7 +41,7 @@ function Navbar() {
               <button class="nav-link dropdown-toggle" style={{ background: 'none', outline: 'none', border: 'none' }} type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Covid Tackers
               </button>
-              <div class="dropdown-menu" style={{ backgroundColor: '#dc3545', position: 'absolute', left: '83.6vw' }}>
+              <div class="dropdown-menu" style={{ backgroundColor: '#1c0303', position: 'absolute', left: '86vw' }}>
                 <li className="nav-item">
                   <a className="nav-link" href="/covid">Covid-19 Tracker</a>
                 </li>
