@@ -24,6 +24,13 @@
 .cases-box{
     text-align: center;
 }
+.Cases{
+    width: 41vw;
+}
+
+.Deaths{
+    width: 54vw;
+}
 
 .cases-details {
     height: 100%;

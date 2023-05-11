@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
 
 .Global {
-    height: 60vh;
     width: 100%;
     background: linear-gradient(rgb(33 105 245 / 83%), rgb(33 105 245 / 83%)), url(../../images/corona.jpg);
     background-color: blue;
@@ -11,6 +10,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    height: 48vh;
 }
 
 .Global  .heading {
@@ -36,7 +36,7 @@
 
 .Global .world-stats {
     width: 100%;
-    height: 250px;
+    /* height: 250px; */
     display: flex;
     justify-content: center;
 }

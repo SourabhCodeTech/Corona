@@ -33,10 +33,6 @@ export default function countryDetails(props) {
                 <NavLink to="#">{props.totalDeaths}</NavLink>
                     <p className="yesterday">Last 24 hours: <strong>{props.newDeaths}</strong></p>
                 </div>
-                <div className="cases-box Recovered">
-                <NavLink to="#">{props.totalRecovered}</NavLink>
-                    <p className="yesterday">Last 24 hours: <strong>{props.newRecovered}</strong></p>
-                </div>
             </div>
                         
         </div>

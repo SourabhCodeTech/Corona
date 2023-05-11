@@ -99,9 +99,6 @@ export default class CountriesDetails extends Component {
 
                         totalDeaths={ChangeNumbertoFormats(cur.TotalDeaths)}
                         newDeaths={ChangeNumbertoFormats(cur.NewDeaths)}
-
-                        totalRecovered={ChangeNumbertoFormats(cur.TotalRecovered)}
-                        newRecovered={ChangeNumbertoFormats(cur.NewRecovered)}
                          />
         })
         : null ;

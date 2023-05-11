@@ -28,7 +28,6 @@ import WorldStats from '../../components/WorldStats/worldstats'
               result: {
                 "TotalConfirmed":corona.TotalConfirmed,
                 "TotalDeaths":corona.TotalDeaths,
-                "TotalRecovered":corona.TotalRecovered,
                 "ActiveCase":corona.TotalConfirmed-(corona.TotalRecovered+corona.TotalDeaths)
               }
           })

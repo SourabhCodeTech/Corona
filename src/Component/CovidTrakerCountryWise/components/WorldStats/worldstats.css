@@ -12,13 +12,13 @@
     font-family: 'Nunito';
     width: 100%;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 16%;
 }
 
 .about {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     color: rgba(255,255,255,.7);
-    margin-top: 5%;
+    /* margin-top: 5%; */
     font-family: "Nunito";
 }
