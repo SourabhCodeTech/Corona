@@ -32,7 +32,7 @@ function Covid() {
         <section id="Covid">
             <br />
             <div className="mb-5">
-                <h2 className="text-center">COVID-19 <span className="livesym">🔴</span>LIVE TRACKER</h2>
+               <h2 className="text-center">COVID-19 <span className="livesym">🔴</span> TRACKER OF INDIA STATE-WISE</h2>
             </div>
             <p className="display-4 date">Time : <span id="time"></span></p>
             <br />
