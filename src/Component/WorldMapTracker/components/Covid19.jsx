@@ -24,7 +24,7 @@ const Covid19 = () => {
       {countries.length === 0 ? (
         <Loading />
       ) : (
-        <div style={{ color: '#000', zIndex: '1'}}>
+        <div style={{ color: '#000'}}>
           <CovidMap countries={countries} />
           <Legend legendItems={legendItemsReverse} />
         </div>
