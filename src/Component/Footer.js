@@ -16,7 +16,7 @@ function Footer() {
                 <div className="item-foo">
 
 <br />
-                    <span> &copy; 16th August, 2021 </span>
+                    <span> &copy; May, 2023 </span>
                     <h5>     Created By : Roli Gautam
                     </h5>
 <br />
