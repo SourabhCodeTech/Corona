@@ -31,7 +31,7 @@ function Navbar() {
               <a className="nav-link" href="/about#pandemic">Pandamic</a>
             </li>
             <li className="nav-item" style={{ padding: '0px 10px' }}>
-                  <a className="nav-link" href="/worldMapTracker">WorldTracker</a>
+                  <a className="nav-link" href="/worldMapTracker">World Map Tracker</a>
                 </li>
 
             <li className="nav-item" style={{ padding: '0px 10px' }}>
